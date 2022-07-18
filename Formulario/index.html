@@ -20,14 +20,14 @@
             <div class="form-header">
                 <!--Titulo-->
                 <div class="title">
-                    <h1>cadastre-se</h1>
+                    <h1>Cadastre-se</h1>
                 </div>
                 <!--Botão-->
                 <div class="login-button">
                     <button><a href="#">Entrar</a></button>
                 </div>
             </div>
-            <!--Criando Input Formulário-->
+            <!--Grupo Input Formulário-->
             <div class="input-group">
                 <!--primeir nome-->
                 <div class="input-box">
@@ -61,12 +61,47 @@
 
                 <!--Confirma Senha-->
                 <div class="input-box">
-                    <label for="password">Confirme sua Senha</label>
-                    <input id="password" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
+                    <label for="Confirmpassword">Confirme sua Senha</label>
+                    <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
                 </div>
             </div>
             <!--Criando input de escolha de gênero-->
+            <div class="gender-inputs">
+                <div class="gender-title">
+                    <h6>Gênero</h6>
+                </div>
+                <!--Grupo Input-->
+                <div class="gender-group">
+                    <!--feminino-->
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+                    
+                    <!--masculino-->
+                    <div class="gender-input">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
 
+                    <!--outros-->
+                    <div class="gender-input">
+                        <input type="radio" id="others" name="gender">
+                        <label for="others">Outros</label>
+                    </div>
+
+                    <!--Prefiro não dizer.-->
+                    <div class="gender-input">
+                        <input type="radio" id="none name="gender">
+                        <label for="none">Prefiro não dizer</label>
+                    </div>
+
+                    <!--botão continuar-->
+                    <divcl class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
    </div> 
