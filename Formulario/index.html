@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+   <div class="container">
+    <!--Seção imagem-->
+    <div class="form-image">
+        <img src="assets/img/undraw_learning_re_32qv.svg">
+    </div>
+    <!--Seção formulário-->
+    <div class="form">
+        <!--Tag form-->
+        <form action="#">
+            <div class="form-header">
+                <!--Titulo-->
+                <div class="title">
+                    <h1>cadastre-se</h1>
+                </div>
+                <!--Botão-->
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </div>
+            <!--Criando Input Formulário-->
+            <div class="input-group">
+                <!--primeir nome-->
+                <div class="input-box">
+                    <label for="firsname">Primeiro Nome</label>
+                     <!--Criado Input com id, name e placeholder mais o required para obrigar a preencher a caixa.-->
+                    <input id="firsname" type="text" name="firsname" placeholder="Digite seu primeiro nome." required>
+                </div>
+                
+                <!--sobrenome-->
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome." required>
+                </div>
+                <!--e-mail-->
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email." required>
+                </div>
+
+                <!--Celular-->
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+                <!--Senha-->
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+                <!--Confirma Senha-->
+                <div class="input-box">
+                    <label for="password">Confirme sua Senha</label>
+                    <input id="password" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
+                </div>
+            </div>
+            <!--Criando input de escolha de gênero-->
+
+        </form>
+    </div>
+   </div> 
+</body>
+</html>
